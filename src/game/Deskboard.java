@@ -18,6 +18,7 @@ public class Deskboard {
 
         // Zalozit hru
         Game game = new Game(p1, p2);
+        game.start();
 
         // Neresit zadnej balicek karet ted..
         Archer archer = new Archer();
@@ -25,13 +26,16 @@ public class Deskboard {
         Babylon babylon = new Babylon();
 
         // p1 -> p2
-        game.execute(p1, archer, p2);
-
+        game.execute(game.getCurrentPlayer(), archer, game.getCurrentPlayerEnemy());
+        game.round();
+        
         // p1 + 
-        game.execute(p1, thief, p2);
+        game.execute(game.getCurrentPlayer(), thief, game.getCurrentPlayerEnemy());
+        game.round();
 
         // p2 +
-        game.execute(p2, babylon, p1);
+        game.execute(game.getCurrentPlayer(), babylon, game.getCurrentPlayerEnemy());
+        game.round();
 
     }
 }

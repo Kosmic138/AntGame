@@ -7,6 +7,7 @@ package player;
 public class Player {
 
     private String name;
+    private PlayerStatus status;
     /* PLAYER PROPERTIES **************************************************** */
     // Global
     private int castle;
@@ -23,6 +24,7 @@ public class Player {
     /* ********************************************************************** */
 
     public Player(String name) {
+        this.status = PlayerStatus.OFFLINE;
         this.name = name;
         castle = 0;
         wall = 0;
@@ -35,6 +37,7 @@ public class Player {
     }
 
     public Player(String name, int castle, int wall, int bricks, int builders, int weapons, int soldiers, int crystals, int mages) {
+        this.status = PlayerStatus.OFFLINE;
         this.name = name;
         this.castle = castle;
         this.wall = wall;
@@ -53,6 +56,15 @@ public class Player {
     public void setName(String name) {
         this.name = name;
     }
+
+    public PlayerStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(PlayerStatus status) {
+        this.status = status;
+    }
+
 
     /* PUBLIC METHOD **********************************************************/
     public void defend(int attack) {
