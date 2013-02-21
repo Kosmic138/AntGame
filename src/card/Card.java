@@ -1,15 +1,13 @@
 package card;
 
-import player.Player;
-
 /**
  *
  * @author Felix
  */
-public class Card {
+public abstract class Card {
 
     private String name;
-    public String type;
+    public int prop = 1;
 
     public Card() {
     }
@@ -26,23 +24,11 @@ public class Card {
         this.name = name;
     }
     
-    public String getType() {
-    	return "abstract";
+    public int getProp() {
+    	return prop;
     }
     
-    public void attack(Player p1, Player p2) {
-    	
-    }
-    
-    public void source(Player p1) {
-    	
-    }
-    
-    public void harass(Player p1, Player p2) {
-    	
-    }
-    
-    public void supply(Player p1) {
-    	
+    public void setProp(int prop) {
+    	this.prop = prop;
     }
 }
