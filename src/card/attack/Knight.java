@@ -5,11 +5,11 @@ import player.Player;
 public class Knight extends AbstractAttack {
 
     public Knight() {
-        super(3, 2, 22);
+        super(3, 2);
     }
 
-    public Knight(int attack, int weapons, int prop) {
-        super(attack, weapons, prop);
+    public Knight(int attack, int weapons) {
+        super(attack, weapons);
     }
 
     @Override

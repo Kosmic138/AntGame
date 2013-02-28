@@ -5,7 +5,7 @@ import player.Player;
 public class Curse extends AbstractHarmful {
 
     public Curse() {
-        super(4);
+        super();
         setCrystals(1);
     }
 

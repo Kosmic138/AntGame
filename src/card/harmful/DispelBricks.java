@@ -7,7 +7,7 @@ public class DispelBricks extends AbstractHarmful {
     private int dispelBriks = 8;
 
     public DispelBricks() {
-        super(12);
+        super();
         setCrystals(4);
     }
 

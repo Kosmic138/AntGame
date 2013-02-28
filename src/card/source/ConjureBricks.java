@@ -9,7 +9,7 @@ import player.Player;
 public class ConjureBricks extends AbstractSource {
 
     public ConjureBricks() {
-        super(14);
+        super();
         setCrystals(4);
         setBricks(8);
     }

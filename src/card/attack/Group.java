@@ -5,11 +5,11 @@ import player.Player;
 public class Group extends AbstractAttack {
 
     public Group() {
-        super(6, 4, 18);
+        super(6, 4);
     }
 
-    public Group(int attack, int weapons, int prop) {
-        super(attack, weapons, prop);
+    public Group(int attack, int weapons) {
+        super(attack, weapons);
     }
 
     @Override

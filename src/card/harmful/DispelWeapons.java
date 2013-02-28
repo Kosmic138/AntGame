@@ -7,7 +7,7 @@ public class DispelWeapons extends AbstractHarmful {
     private int dispelWeapons = 8;
 
     public DispelWeapons() {
-        super(12);
+        super();
         setCrystals(4);
     }
 

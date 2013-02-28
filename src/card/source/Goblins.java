@@ -9,7 +9,7 @@ import player.Player;
 public class Goblins extends AbstractSource {
 
     public Goblins() {
-        super(5);
+        super();
         setCrystals(22);
         setCastle(22);
     }

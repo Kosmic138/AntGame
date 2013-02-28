@@ -8,7 +8,7 @@ public class Vagon extends AbstractHarmful {
     private int destroyCastle = 4;
     
     public Vagon() {
-        super(10);
+        super();
         setBricks(10);
     }
 

@@ -7,7 +7,7 @@ public class Swat extends AbstractHarmful {
     private int destroyCastle = 10;
 
     public Swat() {
-        super(9);
+        super();
         setWeapons(18);
     }
 

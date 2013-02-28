@@ -9,7 +9,7 @@ import player.Player;
 public class Tower extends AbstractSource {
 
     public Tower() {
-        super(17);
+        super();
         setBricks(5);
         setCastle(5);
     }

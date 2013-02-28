@@ -9,7 +9,7 @@ import player.Player;
 public class Babylon extends AbstractSource {
     
     public Babylon() {
-        super(3);
+        super();
         setBricks(39);
         setCastle(39);
     }

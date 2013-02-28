@@ -9,7 +9,7 @@ import player.Player;
 public class Defence extends AbstractSource {
 
     public Defence() {
-        super(14);
+        super();
         setBricks(3);
         setWall(6);
     }

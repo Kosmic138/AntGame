@@ -6,47 +6,49 @@ public class Propability {
 	int tp[];						// total propability
 	
 	public Propability() {
-		propability[0] = 25;		// Archer
-		propability[1] = 4;			// Banshee
-		propability[2] = 9;			// Catapult
-		propability[3] = 5;			// Dragon
-		propability[4] = 18;		// Group
-		propability[5] = 22;		// Knight
+		propability[0] = 5;
+		propability[1] = 9;
+		propability[2] = 6;
+		propability[3] = 16;
+		propability[4] = 23;
+		propability[5] = 30;
+		propability[6] = 9;
+		propability[7] = 12;
+		propability[8] = 12;
+		propability[9] = 12;
+		propability[10] = 9;
+		propability[11] = 8;
+		propability[12] = 3;
+		propability[13] = 8;
+		propability[14] = 12;
+		propability[15] = 12;
+		propability[16] = 12;
+		propability[17] = 19;
+		propability[18] = 10;
+		propability[19] = 6;
+		propability[20] = 8;
+		propability[21] = 23;
+		propability[22] = 12;
+		propability[23] = 12;
+		propability[24] = 16;
 		
-		propability[6] = 4;			// Curse
-		propability[7] = 12;		// Dispel Bricks
-		propability[8] = 12;		// Dispel Crystals
-		propability[9] = 12;		// Dispel Weapons
-		propability[10] = 11;		// Saboteur
-		propability[11] = 9;		// Swat
-		propability[12] = 8;		// Thief
-		propability[13] = 10;		// Vagon
-		
-		propability[14] = 3;		// Babylon
-		propability[15] = 10;		// Builder
-		propability[16] = 14;		// Conjure Bricks
-		propability[17] = 14;		// Conjure Crystals
-		propability[18] = 14;		// Conjure Weapons
-		propability[19] = 14;		// Defence
-		propability[20] = 9;		// Fortification
-		propability[21] = 6;		// Fortress
-		propability[22] = 5;		// Goblins
-		propability[23] = 23;		// Grounding
-		propability[24] = 10;		// Mage
-		propability[25] = 10;		// Recruitment
-		propability[26] = 11;		// Stockpiles
-		propability[27] = 17;		// Tower
-		propability[28] = 26;		// Wall
-		
-		
+		/*for(int c = 0; c <= 24; c++) {									// napevno stanoven� hodnota podm�nky, pozor p�i m�n�n� po�tu karet!!
+			int sum = 0;
+			for(int x = 0; x <= c; x++) {
+				sum += propability[x];
+			}
+			tp[c] = sum;
+			System.out.println(sum);
+			sum = 0;
+		}*/
 		
 		System.out.println(propability[0]);
 		
 	}
 		
-	/*public int getPropability(Card c) {
-		if(c.equals(Archer()){return 5;}
-	}*/
+	public int getPropability(int i) {
+		return 5;
+	}
 	
 	public int getTP(int i) {
 		return tp[i];

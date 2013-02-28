@@ -5,11 +5,11 @@ import player.Player;
 public class Dragon extends AbstractAttack {
 
     public Dragon() {
-        super(25, 21, 5);
+        super(25, 21);
     }
 
-    public Dragon(int attack, int weapons, int prop) {
-        super(attack, weapons, prop);
+    public Dragon(int attack, int weapons) {
+        super(attack, weapons);
     }
 
     @Override

@@ -9,7 +9,7 @@ import player.Player;
 public class Wall extends AbstractSource {
 
     public Wall() {
-        super(26);
+        super();
         setWall(3);
         setBricks(1);
     }
