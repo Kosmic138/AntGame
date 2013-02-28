@@ -5,11 +5,11 @@ import player.Player;
 public class Catapult extends AbstractAttack {
 
     public Catapult() {
-        super(12, 10);
+        super(12, 10, 9);
     }
 
-    public Catapult(int attack, int weapons) {
-        super(attack, weapons);
+    public Catapult(int attack, int weapons, int prop) {
+        super(attack, weapons, prop);
     }
 
     @Override

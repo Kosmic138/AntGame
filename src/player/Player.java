@@ -1,10 +1,15 @@
 package player;
 
+import card.Card;
+import game.GameCards;
+
 /**
  *
  * @author Felix
  */
 public class Player {
+	
+	public Card[] myCards = new Card[7];
 
     private String name;
     private PlayerStatus status;

@@ -9,7 +9,7 @@ import player.Player;
 public class Stockpiles extends AbstractSource {
 
     public Stockpiles() {
-        super();
+        super(11);
         setCastle(8);
         setWall(4);
     }

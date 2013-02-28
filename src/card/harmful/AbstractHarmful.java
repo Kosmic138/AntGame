@@ -18,7 +18,7 @@ public abstract class AbstractHarmful extends Card implements Harassing {
     private int crystals;
     private int mages;
 
-    public AbstractHarmful() {
+    public AbstractHarmful(int prop) {
         castle = 0;
         wall = 0;
         bricks = 0;
@@ -27,9 +27,10 @@ public abstract class AbstractHarmful extends Card implements Harassing {
         builders = 0;
         soldiers = 0;
         mages = 0;
+        super.prop = prop;
     }
 
-    public AbstractHarmful(int castle, int wall, int bricks, int builders, int weapons, int soldiers, int crystals, int mages) {
+    public AbstractHarmful(int castle, int wall, int bricks, int builders, int weapons, int soldiers, int crystals, int mages, int prop) {
         this.castle = castle;
         this.wall = wall;
         this.bricks = bricks;
@@ -38,6 +39,7 @@ public abstract class AbstractHarmful extends Card implements Harassing {
         this.soldiers = soldiers;
         this.crystals = crystals;
         this.mages = mages;
+        super.prop = prop;
     }
 
     public int getCastle() {

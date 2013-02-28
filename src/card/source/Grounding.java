@@ -9,9 +9,9 @@ import player.Player;
 public class Grounding extends AbstractSource {
 
     public Grounding() {
-        super();
-        setBricks(5);
-        setCastle(10);
+        super(23);
+        setBricks(1);
+        setCastle(2);
     }
 
     @Override

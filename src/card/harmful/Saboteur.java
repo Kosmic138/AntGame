@@ -9,7 +9,7 @@ public class Saboteur extends AbstractHarmful {
     private int stealCrystals = 4;
 
     public Saboteur() {
-        super();
+        super(11);
         setCrystals(10);
     }
 

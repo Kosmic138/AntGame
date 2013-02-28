@@ -10,11 +10,12 @@ import player.Player;
 public abstract class AbstractAttack extends Card implements Attackable {
 
     private int attack;
-    private int weapons;
+    private int weapons;		//propability
 
-    public AbstractAttack(int attack, int weapons) {
+    public AbstractAttack(int attack, int weapons, int prop) {
         this.attack = attack;
         this.weapons = weapons;
+        super.prop = prop;
     }
 
     public int getAttack() {

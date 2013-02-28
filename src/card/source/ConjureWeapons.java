@@ -9,7 +9,7 @@ import player.Player;
 public class ConjureWeapons extends AbstractSource {
 
     public ConjureWeapons() {
-        super();
+        super(14);
         setCrystals(4);
         setWeapons(8);
     }

@@ -5,11 +5,11 @@ import player.Player;
 public class Banshee extends AbstractAttack {
 
     public Banshee() {
-        super(32, 28);
+        super(32, 28, 4);
     }
 
-    public Banshee(int attack, int weapons) {
-        super(attack, weapons);
+    public Banshee(int attack, int weapons, int prop) {
+        super(attack, weapons, prop);
     }
 
     @Override

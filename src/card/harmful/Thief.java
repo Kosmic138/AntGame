@@ -9,7 +9,7 @@ public class Thief extends AbstractHarmful {
     private int stealCrystals = 5;
 
     public Thief() {
-        super();
+        super(8);
         setCrystals(15);
     }
 

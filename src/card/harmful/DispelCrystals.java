@@ -7,7 +7,7 @@ public class DispelCrystals extends AbstractHarmful {
     private int dispelCrystals = 8;
 
     public DispelCrystals() {
-        super();
+        super(12);
         setCrystals(4);
     }
 

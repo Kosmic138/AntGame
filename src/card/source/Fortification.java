@@ -9,7 +9,7 @@ import player.Player;
 public class Fortification extends AbstractSource {
 
     public Fortification() {
-        super();
+        super(9);
         setBricks(12);
         setWall(22);
     }

@@ -9,7 +9,7 @@ import player.Player;
 public class Mage extends AbstractSource {
 
     public Mage() {
-        super();
+        super(10);
         setCrystals(8);
         setMages(1);
     }

@@ -9,7 +9,7 @@ import player.Player;
 public class Builder extends AbstractSource {
     
     public Builder() {
-        super();
+        super(10);
         setBricks(8);
         setBuilders(1);
     }

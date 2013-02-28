@@ -9,7 +9,7 @@ import player.Player;
 public class Recruitment extends AbstractSource {
 
     public Recruitment() {
-        super();
+        super(10);
         setWeapons(8);
         setSoldiers(1);
     }
