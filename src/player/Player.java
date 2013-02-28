@@ -1,6 +1,7 @@
 package player;
 
-import java.util.ArrayList;
+import card.Card;
+import game.GameCards;
 
 /**
  *
@@ -8,7 +9,7 @@ import java.util.ArrayList;
  */
 public class Player {
 	
-	//ArrayList al = new ArrayList();
+	public Card[] myCards = new Card[7];
 
     private String name;
     private PlayerStatus status;
